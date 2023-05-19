@@ -1,25 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-  
-
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+    --bg-color: #000000;
+    --primary-color: #ffffff;
 }
 
-.dark-mode {
-    --bg-cor: black;
-    --fonte-cor: #ffffff;
-    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
- }
-
 body {
-    background-color: var(--bg-cor);
-    color: var(--fonte-cor);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,46 +17,14 @@ body {
     text-align: center;
     margin: 0;
     font-family: var(--font-family);
-    user-select: none; 
-    transition: 1s;
 }
-
-.container {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.mudar-tema {
-    position: absolute;
-    top: 4%;
-    left: 2%;
-    background-image: var(--label-icon); 
-    background-repeat: no-repeat;
-    padding: 67px;
-    cursor: pointer; 
-}
-
-.box {
-    border: 5px solid var(--fonte-cor);
-    display: inline-block;
-    font-weight: bold;
-    font-size: 4em;
-    padding: 10px;
-    margin: 20px;
-}
-
-#btn {
-    display: none;
-}
-  
 
 h1 {
+    font-size: 5em;
+}
+
+h2 {
     font-size: 4em;
-    text-transform: uppercase;
 }
 
 h3 {
@@ -78,4 +35,13 @@ h3 {
 .mensagem {
     font-size: 1.5em;
     margin-top: 40px;
+}
+
+.box {
+    border: 8px solid var(--primary-color);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
 }
