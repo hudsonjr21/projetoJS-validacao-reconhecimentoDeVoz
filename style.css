@@ -45,3 +45,38 @@ h3 {
     padding: 10px;
     margin: 20px;
 }
+
+/* .btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+} */
+
+.btn-jogar {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ddd9ce;
+  }
+  
+  .btn-jogar {
+    background-color: var(--primary-color);
+}
+  
+  .btn-jogar {
+    background-color: var(--primary-color);
+    box-shadow: 0 5px #ddd9ce;
+    transform: translateY(4px);
+  }
